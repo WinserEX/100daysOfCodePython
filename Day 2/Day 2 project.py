@@ -13,8 +13,12 @@ people = input(f"How many people are paying for the ${bill}? \n")
 
 split = round(float(bill)/int(people), 2)
 
-tip = input(f"Each person should pay ${split}, what percentage would you like to give as a tip? \n")
+splitR = "{:.2f}".format(split)
+
+tip = input(f"If you want to tip, each person could pay ${splitR}, what percentage would you like to give as a tip? \n")
 
 tipPer = int(tip)/100 
 
-print(f"Since you want to tip {tip}%, each person should pay ${round(split * (tipPer + 1), 2)}")
+finalAmount = "{:.2f}".format(split * (tipPer + 1))
+
+print(f"Since you want to tip {tip}%, each person should pay ${finalAmount}")
