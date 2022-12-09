@@ -1,0 +1,10 @@
+print(round(8 / 3, 2))
+print(8/3)
+print(8//3)
+score = 4/2
+score /= 5
+print(score)
+
+#F string
+
+print(f"your score is {score}")
