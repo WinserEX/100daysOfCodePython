@@ -21,10 +21,32 @@ o = names.count("o")
 v = names.count("v")
 e = names.count("e")
 
-trueScore = t + r + u + e;
-loveScore = l + o + v + e;
+trueScore = t + r + u + e
+loveScore = l + o + v + e
 
-print(trueScore)
-print(loveScore)
+score = f"{str(trueScore) + str(loveScore)}"
+
+scoreInt = int(score)
+
+if scoreInt < 10 or scoreInt > 90:
+    print(f"Your score is {score}, you go together like coke and mentos.")
+
+elif scoreInt >= 40 and scoreInt <= 50:
+    print(f"Your score is {score}, you are alright together.")
+
+else:
+   print(f"Your score is {score}.") 
+
+
+
+# For Love Scores less than 10 or greater than 90, the message should be:
+
+# "Your score is **x**, you go together like coke and mentos."
+# For Love Scores between 40 and 50, the message should be:
+
+# "Your score is **y**, you are alright together."
+# Otherwise, the message will just be their score. e.g.:
+
+# "Your score is **z**."
 
 
