@@ -8,6 +8,6 @@ names = names_string.split(", ")
 #Write your code below this line 👇
 length = len(names)
 
-randNum = random.randint(1,length)
+randNum = random.randint(1,length -1)
 
 print(f"{names[randNum]} is going to buy the meal today!")
