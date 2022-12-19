@@ -7,6 +7,13 @@ print(statesOfAmerica[-1])
 statesOfAmerica.extend(["Winserland", "Kathland"])
 print(statesOfAmerica[-1])
 
-statesOfAmerica.extend(["Luiland"])
+statesOfAmerica.append("Luiland")
 print(statesOfAmerica[-1])
 
+#Nested Lists
+cars = ["Volvo", "BMW", "Jaguar"]
+trucks = ["Nissan", "Daihatsu", "Toyota"]
+
+vehicles = [cars, trucks]
+
+print(vehicles)
