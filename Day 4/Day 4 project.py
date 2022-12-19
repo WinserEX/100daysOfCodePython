@@ -28,8 +28,9 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-plays = [rock, paper, scissors]
+
 #Write your code below this line 👇
+plays = [rock, paper, scissors]
 
 play = input("Type 1 for rock, 2 for paper and 3 for scissors ")
 
