@@ -15,7 +15,6 @@ row = int(position[1])
 map[row - 1][col - 1] = 'X'
 
 
-
 #Write your code above this row 👆
 
 # 🚨 Don't change the code below 👇
